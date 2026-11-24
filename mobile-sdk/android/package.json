@@ -5,12 +5,17 @@
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
-    "build": "gradle build",
+    "build": "node init && gradle build",
     "test": "gradle test",
     "assembleDebug": "gradle assembleDebug",
     "assembleRelease": "gradle assembleRelease"
   },
-  "keywords": ["android", "stellar", "uzima", "medical-records"],
+  "keywords": [
+    "android",
+    "stellar",
+    "uzima",
+    "medical-records"
+  ],
   "author": "Uzima Team",
   "license": "MIT"
 }
